@@ -1,8 +1,8 @@
 {
-  "name": "@wooportal/client",
+  "name": "yourway",
   "version": "0.1.2",
-  "description": "client for wooportal - conventional event mapping",
-  "homepage": "https://github.com/wooportal/client",
+  "description": "An informative portal for migrant women in Wuppertal",
+  "homepage": "https://www.yourway.news",
   "author": {
     "name": "codeschluss",
     "email": "info@codeschluss.de",
@@ -10,11 +10,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/wooportal/client"
+    "url": "https://github.com/codeschluss/yourway"
   },
   "bugs": {
     "email": "info@codeschluss.de",
-    "url": "https://github.com/wooportal/client/issues"
+    "url": "https://github.com/codeschluss/yourway/issues"
   },
   "config": {
     "api": {
@@ -23,16 +23,16 @@
       "refreshUrl": "/api/refresh"
     },
     "defaults": {
-      "appUrl": "https://wooportal.app",
-      "city": "",
-      "language": "en",
-      "title": "wooportal"
+      "appUrl": "https://www.yourway.news",
+      "city": "Wuppertal",
+      "language": "de",
+      "title": "YourWay"
     },
     "firebase": {
-      "apiKey": "AIzaSyDoTopWz0hKOfyb0TLE0IdJkhA8glXu9I8",
-      "appId": "1:83837424328:web:f5d3d2af732be47ff64bfd",
-      "messagingSenderId": "83837424328",
-      "projectId": "wooportal-e80d8"
+      "apiKey": "AIzaSyD5780nKA3-BQtPTB-AjxUcQZGSnN5AC4Y",
+      "appId": "1:1019402303751:web:04c0c2f30769de04e26da2",
+      "messagingSenderId": "1019402303751",
+      "projectId": "yourway-id"
     },
     "jwtClaims": {
       "activityProvider": "createdActivities",
@@ -43,8 +43,8 @@
     }
   },
   "nativescript": {
-    "appId": "1234567890",
-    "id": "de.codeschluss.wooportal.client",
+    "appId": "1531838383",
+    "id": "de.codeschluss.yourway",
     "tns-android": {
       "version": "6.3.1"
     },

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="defaultAppUrl">wooportal.app</string>
-  <string name="defaultTitle">wooportal</string>
+  <string name="defaultAppUrl">www.yourway.news</string>
+  <string name="defaultTitle">YourWay</string>
 </resources>

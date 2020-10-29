@@ -1,3 +1,3 @@
-# @wooportal/client
+# YourWay
 
-client for wooportal - conventional event mapping
+An informative portal for migrant women in Wuppertal

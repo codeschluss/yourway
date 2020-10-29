@@ -1,6 +1,6 @@
 android {
   defaultConfig {
-    applicationId = 'de.codeschluss.wooportal.client'
+    applicationId = 'de.codeschluss.yourway'
     generatedDensities = []
   }
   configurations.all {

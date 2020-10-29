@@ -3,21 +3,21 @@
 <plist version="1.0">
   <dict>
     <key>API_KEY</key>
-    <string>AIzaSyDhugSPmI27zUIr8inLx1XYzHv40sSaz_Q</string>
+    <string>AIzaSyDrDJqk0N-yrP_FZEviFDEf_lDJqC2dsH4</string>
 
     <key>BUNDLE_ID</key>
-    <string>de.codeschluss.wooportal.client</string>
+    <string>de.codeschluss.yourway</string>
 
     <key>FIREBASE_ANALYTICS_COLLECTION_DEACTIVATED</key>
     <true/>
 
     <key>GCM_SENDER_ID</key>
-    <string>83837424328</string>
+    <string>1019402303751</string>
 
     <key>GOOGLE_APP_ID</key>
-    <string>1:83837424328:ios:e36d7e3a33d595dff64bfd</string>
+    <string>1:1019402303751:ios:fead12195ee3179ce26da2</string>
 
     <key>PROJECT_ID</key>
-    <string>wooportal-e80d8</string>
+    <string>yourway-id</string>
   </dict>
 </plist>

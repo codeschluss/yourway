@@ -1,12 +1,12 @@
 {
-  "short_name": "wooportal",
-  "name": "@wooportal/client",
-  "description": "client for wooportal - conventional event mapping",
+  "short_name": "YourWay",
+  "name": "YourWay",
+  "description": "An informative portal for migrant women in Wuppertal",
 
   "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",
-  "theme_color": "#0d47a1",
+  "theme_color": "#78368c",
   "icons": [
     {
       "src": "/images/icon.png",
