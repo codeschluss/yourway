@@ -1,0 +1,34 @@
+{
+  "api": {
+    "rootUrl": "/api",
+    "authUrl": "/api/login",
+    "refreshUrl": "/api/refresh"
+  },
+  "app": {
+    "baseUrl": "https://www.yourway.news",
+    "profile": "production"
+  },
+  "defaults": {
+    "city": "Wuppertal",
+    "language": "de",
+    "title": "YourWay"
+  },
+  "jwtClaims": {
+    "activityProvider": "createdActivities",
+    "blogger": "blogger",
+    "blogpostAuthor": "blogAuthor",
+    "organisationAdmin": "adminOrgas",
+    "organisationUser": "approvedOrgas",
+    "superUser": "superuser",
+    "translator": "translator",
+    "userId": "id"
+  },
+  "labelHeader": {
+    "read": "accept-language",
+    "write": "content-language"
+  },
+  "storeIds": {
+    "android": "de.codeschluss.yourway",
+    "ios": "1531838383"
+  }
+}

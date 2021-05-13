@@ -1,0 +1,18 @@
+{
+  "short_name": "YourWay",
+  "name": "YourWay",
+  "description": "An informative portal for migrant women in Wuppertal",
+
+  "scope": "/",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#78368c",
+  "icons": [
+    {
+      "src": "/images/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
