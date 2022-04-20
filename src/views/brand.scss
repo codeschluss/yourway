@@ -1,7 +1,7 @@
 @import '~@angular/material/theming';
 
 $animation-duration: .25s;
-$viewport-width: 100rem;
+$viewport-width: 120rem;
 
 $color-lightest: scale-color(white, $lightness: -0%);
 $color-lighter: scale-color(white, $lightness: -2%);
@@ -72,52 +72,19 @@ $theme-palette-accent: (
     A100: $color-darkest,
     A200: $color-darkest,
     A400: $color-darkest,
-    A700: $color-darkest
-  )
-);
-
-$theme-palette-warn: (
-  50: #ffebee,
-  100: #ffcdd2,
-  200: #ef9a9a,
-  300: #e57373,
-  400: #ef5350,
-  500: #f44336,
-  600: #e53935,
-  700: #d32f2f,
-  800: #c62828,
-  900: #b71c1c,
-  A100: #ff8a80,
-  A200: #ff5252,
-  A400: #ff1744,
-  A700: #d50000,
-  contrast: (
-    50: $color-darkest,
-    100: $color-darkest,
-    200: $color-darkest,
-    300: $color-darkest,
-    400: $color-darkest,
-    500: $color-lightest,
-    600: $color-lightest,
-    700: $color-lightest,
-    800: $color-lightest,
-    900: $color-lightest,
-    A100: $color-darkest,
-    A200: $color-lightest,
-    A400: $color-lightest,
-    A700: $color-lightest
+    A700: $color-darkest,
   )
 );
 
 $theme-palette: mat-light-theme(
   mat-palette($theme-palette-primary),
-  mat-palette($theme-palette-accent),
-  mat-palette($theme-palette-warn)
+  mat-palette($theme-palette-accent)
 );
 
 $color-primary: mat-color(map-get($theme-palette, primary));
 $color-accent: mat-color(map-get($theme-palette, accent));
 $color-warn: mat-color(map-get($theme-palette, warn));
+$color-bg: scale-color($color-primary, $lightness: +95%);
 
 @mixin deep {
   &::ng-deep { @content; }
